@@ -1,0 +1,203 @@
+<head>
+<style>
+.button {
+	border: none;
+	color: white;
+	padding: 16px 42px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 50px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.button1 {
+	background-color: #2F4F4F; 
+	color: #ffffff; 
+	border: 2px solid black;
+	position: absolute;
+	top: 50%;
+	left: 2.8%;
+}	
+
+.button1:hover {
+	background-color: #ffffff;
+	color: black;
+	border: 2px #ffffff;
+}
+
+.button2 {
+	background-color: #2F4F4F; 
+	color: #ffffff; 
+	border: 2px solid black;
+	position: absolute;
+	top: 50%;
+	left: 17.5%;
+}
+
+.button2:hover {
+	background-color: #ffffff;
+	color: black;
+	border: 2px #ffffff;
+}
+.button3 {
+	background-color: #2F4F4F; 
+	color: #ffffff; 
+	border: 2px solid black;
+	position: absolute;
+	top: 50%;
+	left: 32.2%;
+}
+
+.button3:hover {
+	background-color: #ffffff;
+	color: black;
+	border: 2px #ffffff;
+}
+.button4 {
+	background-color: #2F4F4F; 
+	color: #ffffff; 
+	border: 2px solid black;
+	position: absolute;
+	top: 50%;
+	left: 46.9%;
+}
+
+.button4:hover {
+	background-color: #ffffff;
+	color: black;
+	border: 2px #ffffff;
+}
+.button5 {
+	background-color: #2F4F4F; 
+	color: #ffffff; 
+	border: 2px solid black;
+	position: absolute;
+	top: 50%;
+	left: 61.6%;
+}
+
+.button5:hover {
+	background-color: #ffffff;
+	color: black;
+	border: 2px #ffffff;
+}
+.button6 {
+	background-color: #2F4F4F; 
+	color: #ffffff; 
+	border: 2px solid black;
+	position: absolute;
+	top: 50%;
+	left: 76.3%;
+}
+
+.button6:hover {
+	background-color: #ffffff;
+	color: black;
+	border: 2px #ffffff;
+}
+.button7 {
+	background-color: #2F4F4F; 
+	color: #ffffff; 
+	border: 2px solid black;
+	position: absolute;
+	top: 50%;
+	left: 91%;
+}
+.button7:hover {
+	background-color: #ffffff;
+	color: black;
+	border: 2px #ffffff;
+}
+</style>
+</head>
+	
+	
+	
+	h1
+	{
+		color: #F5FFFA;
+	}
+
+
+	<button class="button button1">Green</button>
+	<button class="button button2">Blue</button>
+	{
+		backround-color: black;
+	}
+
+	#carte 
+	{
+		width: 1300px
+		background-color: black;
+		font-size: 40px;
+		font-style: italic;
+		text-align: center;">
+	}
+	
+	
+	img{
+		height: 150px;
+		width: 150px;
+		object-fit: cover;
+		box-shadow: 0 0 10px #F5FFFA;
+	}
+	.wrapper{
+		max-height: 150px;
+		border: 2px #ffffff;
+		display: flex;
+	}
+	
+	.wrapper .item{
+		min-width: 150px; 	
+		height: 150px;
+		line-height: 150px;
+		text-align: center;	
+		background-color: black;
+		margin-right: 50px;
+	}
+
+.search-box{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #ffffff;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+.search-box:hover > .search-txt{
+	width: 240px;
+	padding: 0 6px;
+}
+
+.search-box:hover > .search-btn{
+	background: red;
+}
+.search-btn{
+	color: black;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	translation: 0.4s;
+}
+.search-txt{
+	border:none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: black;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0px;
+}
